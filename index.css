@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+  }
+
+  @font-face {
+    font-family: myFont;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+  }
+  
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 60%;
+    width: 80px;
+    margin-bottom: -50px;
+    
+    
+}
+
+button{
+    background-color: rgb(52, 52, 52);
+    border-radius: 8px;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    display:block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    width: 300px;   
+    margin: 10px; 
+    font-family: inherit;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(201, 201, 201);
+    color: white;
+}
+
+  .wrapper {
+
+    position: relative;
+    width: 370px;
+    height: 550px;
+    background: rgb(25, 25, 25);    
+    border-radius: 20px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper .container {
+    width: 100%;
+    padding: 100px;
+  }
+
+  h2 {
+    color: white;
+    text-align: center;
+    font-family: myFont;
+  }
+
+  h4{
+    color: rgb(133, 209, 9);
+    text-align: center;
+    font-family: myFont;
+  }
+
+  h5{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    font-family: myFont;
+    font-style: normal;
+    
+  }
+
+  .attribution{
+    display: inline-block;
+    color: white;
+  }
